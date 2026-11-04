@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio Personal</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <header>
+
+        <nav class="menu">
+            <a href="#inicio" class="logo">Mi Portfolio ♡</a>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- INICIO -->
+        <section id="inicio" class="inicio">
+            <div class="presentacion">
+                <p class="saludo">¡Hola! Bienvenido/a a mi portfolio</p>
+
+                <h1>Soy Alicia</h1>
+       <div class="avatar-container">
+    <img src="/formulario.html/img.png/avatar.png" alt="Retrato de Alicia, estudiante y futura profesional, en su portfolio personal." class="avatar">
+</div>
+                <h2>Estudiante y futura profesional</h2>
+
+                <p>
+                    Me apasiona aprender, crear proyectos
+                    y desarrollar nuevas habilidades.
+                </p>
+
+                <a href="#sobre-mi" class="boton">
+                    Conóceme
+                </a>
+            </div>
+        </section>
+
+        <!-- SOBRE MÍ -->
+        <section id="sobre-mi" class="seccion">
+            <h2>Sobre mí</h2>
+
+            <div class="tarjeta">
+                <h3>¿Quién soy?</h3>
+
+                <p>
+                    ¡Hola! Soy Alicia, una persona creativa,
+                    responsable y con muchas ganas de aprender.
+
+                    Actualmente estoy formándome y desarrollando
+                    mis conocimientos en el ámbito digital.
+
+                    Me gusta trabajar en equipo, afrontar nuevos
+                    retos y aprender cosas diferentes cada día.
+                </p>
+            </div>
+        </section>
+
+        <!-- PROYECTOS -->
+        <section id="proyectos" class="seccion">
+            <h2>Mis proyectos</h2>
+
+            <div class="contenedor-tarjetas">
+
+                <article class="tarjeta proyecto">
+                    <h3>Proyecto 1</h3>
+                    <p>
+                        Diseño de una página web creativa
+                        utilizando HTML y CSS.
+                    </p>
+                    <span>HTML · CSS</span>
+                </article>
+
+                <article class="tarjeta proyecto">
+                    <h3>Proyecto 2</h3>
+                    <p>
+                        Creación de una tienda online
+                        con diseño moderno y atractivo.
+                    </p>
+                    <span>Diseño web</span>
+                </article>
+
+                <article class="tarjeta proyecto">
+                    <h3>Proyecto 3</h3>
+                    <p>
+                        Elaboración de una presentación
+                        digital e infografía.
+                    </p>
+                    <span>Canva · Creatividad</span>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- FORMACIÓN -->
+        <section id="formacion" class="seccion">
+            <h2>Mi formación</h2>
+
+            <div class="tarjeta">
+                <h3>Formación académica</h3>
+
+                <div class="elemento">
+                    <h4> bachillerato de artes
+                    
+                    </h4>
+                    <p>IES TRASSIERRA· septiembre 2019-junio 2021</p>
+                </div>
+
+                <div class="elemento">
+                    <h4>Formación profesional</h4>
+                    <p>
+                        auxiliar de enfermería,Inmaculada concepcion octubre 2026-mayo 2026
+                    </p>
+                </div>
+
+                <div class="elemento">
+                    <h4>Cursos complementarios</h4>
+                    <p>
+                        Cursos y actividades de formación
+                        adicionales.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- HABILIDADES -->
+        <section id="habilidades" class="seccion">
+            <h2>Mis habilidades</h2>
+
+            <div class="contenedor-tarjetas">
+
+                <div class="tarjeta">
+                    <h3>Habilidades personales</h3>
+                    <ul class="lista">
+                        <li>Trabajo en equipo</li>
+                        <li>Responsabilidad</li>
+                        <li>Creatividad</li>
+                        <li>Organización</li>
+                        <li>Comunicación</li>
+                    </ul>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Habilidades digitales</h3>
+                    <ul class="lista">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Visual Studio Code</li>
+                        <li>Canva</li>
+                        <li>Microsoft Office</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contacto" class="seccion">
+            <h2>Contacto</h2>
+
+            <div class="tarjeta contacto">
+                <h3>¡Hablemos!</h3>
+
+                <p>
+                    Si quieres contactar conmigo,
+                    puedes rellenar el siguiente formulario.
+                </p>
+
+                <form action="#" method="post">
+
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo" placeholder="Tu correo electrónico" required>
+
+                    <label for="asunto">Asunto</label>
+                    <input type="text" id="asunto" name="asunto" placeholder="Motivo del contacto" required>
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje..."
+                        required></textarea>
+
+                    <button type="submit">
+                        Enviar mensaje ♡
+                    </button>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>© 2026 Mi Portfolio Personal | Creado con HTML y CSS ♡</p>
+    </footer>
+
+</body>
+
+</html>
