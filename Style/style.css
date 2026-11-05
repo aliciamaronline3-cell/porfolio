@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Alicia";
+    src: url(../fuentes/Amarante-Regular.ttf);
+
+}
+body {
+    font-family: "Alicia";
+    background-image: url("../src/img/sala.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
