@@ -1,3 +1,7 @@
+
+
+
+
 @font-face {
     font-family: "Alicia";
     src: url(../fuentes/Amarante-Regular.ttf);
@@ -8,4 +12,23 @@ body {
     background-image: url("../src/img/sala.jpg");
     background-repeat: no-repeat;
     background-size:cover ;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 25px;
+    margin: 0%;
 }
+header{
+    height: 150px;
+    background-color: rgb(165, 172, 169, 0.5);
+    text-align: center;
+    margin: 0%;
+}
+
+
+    
+
+
+
+
+
+
